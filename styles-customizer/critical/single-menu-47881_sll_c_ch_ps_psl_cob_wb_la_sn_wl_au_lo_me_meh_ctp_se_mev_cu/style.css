@@ -1,0 +1,107 @@
+body.gridlock section.advantage-cards .row .layout-cell .plugin-layout-inner h2 {
+    color: #e3e3e3;
+    font-size: 120px;
+    position: absolute;
+    top: -85px;
+}
+
+body.gridlock section.advantage-cards .row .layout-cell .plugin-layout-inner {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    padding: 65px 45px 35px;
+    position: relative;
+}
+
+#f-plugin {
+    padding-bottom: 12px;
+}
+
+.burger-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: none;
+    padding: 0!important;
+}
+
+.burger-btn>span {
+    width: 100%;
+    height: 3px;
+    background: #000;
+}
+
+.burger-btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+}
+
+.burger-btn span {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    left: 0;
+    transition: all 0.3s ease;
+}
+
+.burger-btn span:nth-child(1) {
+    top: 0;
+}
+
+.burger-btn span:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.burger-btn span:nth-child(3) {
+    bottom: 0;
+}
+
+.burger-btn.open span:nth-child(1) {
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.burger-btn.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-btn.open span:nth-child(3) {
+    bottom: 50%;
+    transform: translateY(50%) rotate(-45deg);
+}
+
+
+.current {
+    cursor: no-drop;
+}
+
+
+@media (min-width: 980px) {
+    .burger-btn {
+        display: none;
+    }
+}
+
+@media (min-width: 320px) {
+    #fwidth {
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    #fwidth {
+        max-width: 1200px;
+    }
+}

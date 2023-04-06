@@ -4827,7 +4827,7 @@ body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin art
 body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin article span.slider-label, body.gridlock section.slider div.plugin-layout-inner div.carousel article span.slider-label, body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin div.item span.slider-label, body.gridlock section.slider div.plugin-layout-inner div.carousel div.item span.slider-label {
     position: absolute;
     top: 0%;
-    left: 0%;
+    left: 0;
     width: 100%;
     height: 100%;
     display: flex;
