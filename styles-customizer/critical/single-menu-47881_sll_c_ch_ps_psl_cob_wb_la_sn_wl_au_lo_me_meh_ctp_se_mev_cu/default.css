@@ -4846,13 +4846,13 @@ body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin art
 body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin article span.slider-label span.slider-name, body.gridlock section.slider div.plugin-layout-inner div.carousel article span.slider-label span.slider-name, body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin div.item span.slider-label span.slider-name, body.gridlock section.slider div.plugin-layout-inner div.carousel div.item span.slider-label span.slider-name {
     width: 100%;
     display: block;
-    font-size: 23px;
+    font-size: 18px;
     font-weight: 600;
     color: #fff;
     width: 45%;
-    line-height: 110%;
     margin-bottom: 20px;
-    text-shadow: 0 0 3px #3636364a
+    text-shadow: 0 0 3px #3636364a;
+    line-height: 30px;
 }
 
 body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin article span.slider-label span.slider-description, body.gridlock section.slider div.plugin-layout-inner div.carousel article span.slider-label span.slider-description, body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin div.item span.slider-label span.slider-description, body.gridlock section.slider div.plugin-layout-inner div.carousel div.item span.slider-label span.slider-description {

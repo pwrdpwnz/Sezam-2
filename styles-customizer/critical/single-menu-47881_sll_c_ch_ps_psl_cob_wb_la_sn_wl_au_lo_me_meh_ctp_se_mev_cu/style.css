@@ -1,3 +1,9 @@
+
+.slider-name {
+    line-height: 30px;
+    margin-top: 60px;
+}
+
 body.gridlock section.advantage-cards .row .layout-cell .plugin-layout-inner h2 {
     color: #e3e3e3;
     font-size: 120px;
@@ -5,12 +11,21 @@ body.gridlock section.advantage-cards .row .layout-cell .plugin-layout-inner h2 
     top: -85px;
 }
 
+
 body.gridlock section.advantage-cards .row .layout-cell .plugin-layout-inner {
     display: flex;
     flex-direction: column;
     background-color: #f5f5f5;
     padding: 65px 45px 35px;
     position: relative;
+}
+
+.plugin-layout-inner > div > h4 {
+    cursor: pointer;
+}
+
+.plugin-layout-inner > div > h4:hover {
+    color: darkred;
 }
 
 #f-plugin {
@@ -76,6 +91,7 @@ body.gridlock section.advantage-cards .row .layout-cell .plugin-layout-inner {
 }
 
 
+
 @media (min-width: 980px) {
     .burger-btn {
         display: none;
@@ -96,6 +112,13 @@ body.gridlock section.advantage-cards .row .layout-cell .plugin-layout-inner {
         max-width: 1200px;
     }
 }
+
+@media (max-width: 1088px) {
+    .slider-name {
+        font-size: 16px!important;
+    }
+}
+
 
 .animated-text {
     opacity: 0;
