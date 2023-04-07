@@ -48,18 +48,7 @@
 			padding: 0
 		}
 
-		.pswp,
-		.mm-menu {
-			display: none
-		}
 
-		.owl-carousel {
-			transition: opacity 500ms ease
-		}
-
-		.owl-carousel:not(.owl-loaded) {
-			opacity: 0
-		}
 
 		.sidebar-popup.hidden {
 			display: none
@@ -1063,7 +1052,7 @@
 		}
 	</style>
     <link rel="stylesheet" href="styles-customizer/critical/single-menu-47881_sll_c_ch_ps_psl_cob_wb_la_sn_wl_au_lo_me_meh_ctp_se_mev_cu/style.css">
-	<link href="styles-customizer/critical/single-menu-47881_sll_c_ch_ps_psl_cob_wb_la_sn_wl_au_lo_me_meh_ctp_se_mev_cu/default.css" id="critical" onerror="$._css($(this).attr(&#39;href&#39;), { timeout: 1000 })" rel="stylesheet">
+	<link href="styles-customizer/critical/single-menu-47881_sll_c_ch_ps_psl_cob_wb_la_sn_wl_au_lo_me_meh_ctp_se_mev_cu/default.css" id="critical" onerror="$._css($(this).attr(), { timeout: 1000 })" rel="stylesheet">
 </head>
 
 <body class="gridlock cells-12 language-rus current-menu-home" data-language-id="2" data-culture="ru-Ru" data-language-alias="rus" data-separator="," data-group="0" data-debug="false">
@@ -1991,7 +1980,7 @@
 					e.querySelectorAll("[name='']").length || y.push("\\[" + M + "*name" + M + "*=" + M + "*(?:''|\"\")");
 					e.querySelectorAll(":checked").length || y.push(":checked");
 					e.querySelectorAll("a#" + E + "+*").length || y.push(".#.+[+~]");
-					e.querySelectorAll("\\\f");
+					e.querySelectorAll("f");
 					y.push("[\\r\\n\\f]")
 				}), ce(function(e) {
 					e.innerHTML = "<a href='' disabled='disabled'><\/a><select disabled='disabled'><option/><\/select>";
@@ -2002,7 +1991,7 @@
 					2 !== e.querySelectorAll(":enabled").length && y.push(":enabled", ":disabled");
 					a.appendChild(e).disabled = !0;
 					2 !== e.querySelectorAll(":disabled").length && y.push(":enabled", ":disabled");
-					e.querySelectorAll("*,:x");
+					e.querySelectorAll("*");
 					y.push(",.*:")
 				})), (d.matchesSelector = K.test(c = a.matches || a.webkitMatchesSelector || a.mozMatchesSelector || a.oMatchesSelector || a.msMatchesSelector)) && ce(function(e) {
 					d.disconnectedMatch = c.call(e, "*");
@@ -5034,24 +5023,24 @@
                             <div class="layout-inner">
                                 <div class="layout-cell-plugin layout-cell-plugin" id="zojod">
                                     <div class="plugin-layout-inner">
-                                        <div class="plugin-default social-networks" id="social-networks" style="text-align: center;">
+                                        <div class="plugin-default social-networks"  style="text-align: center;">
                                             <div class="plugin-default-social-networks with-style" style="margin-left: 3px; margin-right: 3px;">
                                                 <div class="social-networks"> <a href="https://instagram.com/" target="Blank" rel="nofollow" aria-label="Instagram">
-                                                        <span style="background: transperent; width: 26px; height: 26px; border-radius: none; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                        <span style="background: none; width: 26px; height: 26px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
                                                             <img alt="Instagram" style="width: 100%; height: 100%;" data-src="Templates/Template_000011/Images/pic/instagram.svg" src="Templates/Template_000011/Images/pic/instagram.svg" width="32" height="32" class="async loader-async">
                                                             <noscript><img src="Templates/Template_000011/Images/pic/instagram.svg" alt="Instagram" title="Instagram"></noscript></span>
                                                     </a> </div>
                                             </div>
                                             <div class="plugin-default-social-networks with-style" style="margin-left: 3px; margin-right: 3px;">
                                                 <div class="social-networks"> <a href="https://facebook.com/" target="Blank" rel="nofollow" aria-label="Facebook">
-                                                        <span style="background: transperent; width: 26px; height: 26px; border-radius: none; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                        <span style="background-color: transparent; width: 26px; height: 26px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
                                                             <img alt="Facebook" style="width: 100%; height: 100%;" data-src="Templates/Template_000011/Images/pic/facebook.svg" src="Templates/Template_000011/Images/pic/facebook.svg" width="32" height="32">
                                                             <noscript><img src="Templates/Template_000011/Images/pic/facebook.svg" alt="Facebook" title="Facebook"></noscript></span>
                                                     </a> </div>
                                             </div>
                                             <div class="plugin-default-social-networks with-style" style="margin-left: 3px; margin-right: 3px;">
                                                 <div class="social-networks"> <a href="https://youtube.com/" target="Blank" rel="nofollow" aria-label="YouTube">
-                                                        <span style="background: transperent; width: 26px; height: 26px; border-radius: none; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                        <span style="background-color: transparent; width: 26px; height: 26px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
                                                             <img alt="YouTube" style="width: 100%; height: 100%;" data-src="Templates/Template_000011/Images/pic/youtube.svg" src="Templates/Template_000011/Images/pic/youtube.svg" width="32" height="32">
                                                             <noscript><img src="Templates/Template_000011/Images/pic/youtube.svg" alt="YouTube" title="YouTube"></noscript></span>
                                                     </a> </div>
@@ -5181,34 +5170,56 @@
                                         <div class="plugin-menu">
                                             <nav class="menu-horizontal widgets-menu tablet-hide mobile-hide min-hide">
                                                 <ul style="text-align: center;">
-                                                    <li id="menu-item-home" class="current has-no-submenu has-no-widget"> <a href="rus/" target="_self" data-img-src="Templates/Template_000011/Images/default-image.jpg" style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                    <li class="menu-item-home" class="current has-no-submenu has-no-widget"> <a href="rus/" target="_self" data-img-src="Templates/Template_000011/Images/default-image.jpg" style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
                                                             Главная
                                                         </a> </li>
-                                                    <li id="menu-item-shop" class="common has-submenu has-widget"> <a href="rus/shop/" target="_self" data-img-src="Templates/Template_000011/Images/default-image.jpg" style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
-                                                            Магазин
-                                                        </a>
-                                                        <div class="submenu widget-layout widget-async widget-15697" data-id="15697">
-                                                            <div class="loader">
-                                                                <div class="loader-inner">Loading...</div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li id="menu-item-blog" class="common has-no-submenu has-no-widget"> <a href="rus/blog/" target="_self" data-img-src="Templates/Template_000011/Images/default-image.jpg" style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
-                                                            Блог
-                                                        </a> </li>
-                                                    <li id="menu-item-for-customers" class="common has-submenu has-no-widget"> <a href="rus/for-customers/" target="_self" data-img-src="Templates/Template_000011/Images/default-image.jpg" style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                    <li class="common has-submenu has-no-widget"> <a href="rus/for-customers/" target="_self" data-img-src="Templates/Template_000011/Images/default-image.jpg" style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
                                                             Покупателям
                                                         </a>
                                                         <ul class="submenu">
-                                                            <li id="menu-item-pro-nas" id="menu-item-pro-nas" class="common has-no-submenu has-no-widget submenu"> <a href="rus/for-customers/pro-nas/" target="_self" data-img-src="Templates/Template_000011/Images/default-image.jpg" style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
-                                                                    О нас
+                                                            <li id="menu-item-pro-nas" class="common has-no-submenu has-no-widget submenu"> <a href="rus/for-customers/pro-nas/" target="_self" data-img-src="Templates/Template_000011/Images/default-image.jpg" style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                                    Металеві двері
                                                                 </a> </li>
                                                             <li id="menu-item-dostavka-i-oplata" id="menu-item-dostavka-i-oplata" class="common has-no-submenu has-no-widget submenu"> <a href="rus/for-customers/dostavka-i-oplata/" target="_self" data-img-src="Templates/Template_000011/Images/default-image.jpg" style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
-                                                                    Доставка и оплата
+                                                                    Металеві ворота з автоматикою і без
                                                                 </a> </li>
+                                                            <li id="menu-item-pro-nas" class="common has-no-submenu has-no-widget submenu"> <a href="rus/for-customers/pro-nas/" target="_self" data-img-src="Templates/Template_000011/Images/default-image.jpg" style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                                Грати на вікна
+                                                                </a> </li>
+                                                            <li id="menu-item-pro-nas" class="common has-no-submenu has-no-widget submenu"> <a href="rus/for-customers/pro-nas/" target="_self" data-img-src="Templates/Template_000011/Images/default-image.jpg" style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                                    Захисні металеві жалюзі
+                                                                </a> </li>
+                                                            <li id="menu-item-pro-nas" class="common has-no-submenu has-no-widget submenu"> <a href="rus/for-customers/pro-nas/" target="_self" data-img-src="Templates/Template_000011/Images/default-image.jpg" style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                                    Навіси
+                                                                </a> </li>
+                                                            <li id="menu-item-pro-nas" class="common has-no-submenu has-no-widget submenu"> <a href="rus/for-customers/pro-nas/" target="_self" data-img-src="Templates/Template_000011/Images/default-image.jpg" style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                                    Паркани
+                                                                </a> </li>
+                                                            <li id="menu-item-pro-nas" class="common has-no-submenu has-no-widget submenu"> <a href="rus/for-customers/pro-nas/" target="_self" data-img-src="Templates/Template_000011/Images/default-image.jpg" style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                                    Металеві огорожі
+                                                                </a> </li>
+                                                            <li id="menu-item-pro-nas" class="common has-no-submenu has-no-widget submenu"> <a href="rus/for-customers/pro-nas/" target="_self" data-img-src="Templates/Template_000011/Images/default-image.jpg" style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                                    Ковані вироби
+                                                                </a> </li>
+                                                            <li id="menu-item-pro-nas" class="common has-no-submenu has-no-widget submenu"> <a href="rus/for-customers/pro-nas/" target="_self" data-img-src="Templates/Template_000011/Images/default-image.jpg" style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                                    МДФ фасади для дверей
+                                                                </a> </li>
+                                                            <li id="menu-item-pro-nas" class="common has-no-submenu has-no-widget submenu"> <a href="rus/for-customers/pro-nas/" target="_self" data-img-src="Templates/Template_000011/Images/default-image.jpg" style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                                    Міжкімнатні двері
+                                                                </a> </li>
+                                                            <li id="menu-item-pro-nas" class="common has-no-submenu has-no-widget submenu"> <a href="rus/for-customers/pro-nas/" target="_self" data-img-src="Templates/Template_000011/Images/default-image.jpg" style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                                    Металопластикові вікна
+                                                                </a> </li>
+
                                                         </ul>
                                                     </li>
-                                                    <li id="menu-item-contacts" class="common has-no-submenu has-no-widget"> <a href="rus/contacts/" target="_self" data-img-src="Templates/Template_000011/Images/default-image.jpg" style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+
+                                                    <li class="common has-no-widget"> <a href="rus/for-customers/" target="_self" data-img-src="Templates/Template_000011/Images/default-image.jpg" style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
+                                                            Про компанію
+                                                        </a>
+
+                                                    </li>
+                                                    <li class="common has-no-submenu has-no-widget"> <a href="rus/contacts/" target="_self" data-img-src="Templates/Template_000011/Images/default-image.jpg" style="color: #363636; font-size: 14px; text-transform: uppercase; padding-top: 13px; padding-bottom: 13px; padding-right: 13px; padding-left: 13px;">
                                                             Контакты
                                                         </a> </li>
                                                 </ul>
@@ -5221,35 +5232,7 @@
 
                     </div>
                 </section>
-                <section class="layout-section slide-menu" id="xosif">
-                    <div class="row layout-row">
-                        <div class="layout-cell max-undefined desktop-undefined tablet-undefined mobile-undefined min-undefined max-12 desktop-12 tablet-6 mobile-3 min-3" id="ed1nk">
-                            <div class="layout-inner">
-                                <div class="layout-cell-plugin layout-cell-plugin" id="ikhup">
-                                    <div class="plugin-layout-inner">
-                                        <div class="search-plugin without-button" id="search-input-ikhup"> <input class="typeahead" maxlength="50" onfocus="_state.trigger('searchfocus', this)" id="typeaheadikhup" type="text" value="" placeholder="Поиск" autocomplete="new-password">
-                                            <div class="hide-search" id="hidesearch-ikhup"> <a href="#" class="close-dark" title="Закрыть">
-                                                    <img data-src="Templates/Template_000011/Images/close.png" width="24" height="24" alt="Закрыть" class="async">
-                                                </a> </div>
-                                        </div>
-                                        <script type="application/ld+json">
-                                            {
-												"@context": "https://schema.org",
-												"@type": "WebSite",
-												"url": "",
-												"potentialAction": {
-													"@type": "SearchAction",
-													"target": "rus/shop/?search={search_term_string}",
-													"query-input": "required name=search_term_string"
-												}
-											}
-                                        </script>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+
             </span>
 		<article id="home-item" class="layout-container">
 			<section class="layout-section full-width slider" id="yhzyk">
@@ -5262,33 +5245,24 @@
 										<div class="light-slider-wrapper">
 											<div class="light-slide-wrapper">
 												<div class="inner compensate-for-scrollbar">
-													<article style="padding: 0 0px;"> <span class="container-async loader-async" style="padding-top: 62.100%">
-                                                                <picture class="async" data-original-src="Templates/Template_000011/Images/cropped-Pink-Depford-Store-Front-1920px.jpg" data-alt="Интернет-магазин авто-товаров" data-title="Интернет-магазин авто-товаров">
-                                                                    <source media="(max-width: 500px)" data-srcset="Templates/Template_000011/Images/cropped-Pink-Depford-Store-Front-1920px.jpg" type="image/webp" data-alt="Интернет-магазин авто-товаров" data-title="Интернет-магазин авто-товаров">
-                                                                    <source media="(max-width: 980px)" data-srcset="Templates/Template_000011/Images/cropped-Pink-Depford-Store-Front-1920px.jpg" type="image/webp" data-alt="Интернет-магазин авто-товаров" data-title="Интернет-магазин авто-товаров">
-                                                                    <source media="(max-width: 1220px)" data-srcset="Templates/Template_000011/Images/cropped-Pink-Depford-Store-Front-1920px.jpg" type="image/webp" data-alt="Интернет-магазин авто-товаров" data-title="Интернет-магазин авто-товаров">
-                                                                    <source media="(min-width: 1221px)" data-srcset="Templates/Template_000011/Images/cropped-Pink-Depford-Store-Front-1920px.jpg" type="image/webp" data-alt="Интернет-магазин авто-товаров" data-title="Интернет-магазин авто-товаров">
-                                                                    <img class="" src="Templates/Template_000011/Images/cropped-Pink-Depford-Store-Front-1920px.jpg" data-src="Templates/Template_000011/Images/cropped-Pink-Depford-Store-Front-1920px.jpg" alt="Интернет-магазин авто-товаров" title="Интернет-магазин авто-товаров">
-                                                                </picture>
+													<article style="padding: 0 0;"> <span class="container-async loader-async" style="padding-top: 62.100%; background: #20232a; position: relative">
+<!--                                                                <picture class="async" data-original-src="Templates/Template_000011/Images/cropped-Pink-Depford-Store-Front-1920px.jpg" data-alt="Интернет-магазин авто-товаров" data-title="Интернет-магазин авто-товаров">-->
+<!--                                                                    <source media="(max-width: 500px)" data-srcset="Templates/Template_000011/Images/cropped-Pink-Depford-Store-Front-1920px.jpg" type="image/webp" data-alt="Интернет-магазин авто-товаров" data-title="Интернет-магазин авто-товаров">-->
+<!--                                                                    <source media="(max-width: 980px)" data-srcset="Templates/Template_000011/Images/cropped-Pink-Depford-Store-Front-1920px.jpg" type="image/webp" data-alt="Интернет-магазин авто-товаров" data-title="Интернет-магазин авто-товаров">-->
+<!--                                                                    <source media="(max-width: 1220px)" data-srcset="Templates/Template_000011/Images/cropped-Pink-Depford-Store-Front-1920px.jpg" type="image/webp" data-alt="Интернет-магазин авто-товаров" data-title="Интернет-магазин авто-товаров">-->
+<!--                                                                    <source media="(min-width: 1221px)" data-srcset="Templates/Template_000011/Images/cropped-Pink-Depford-Store-Front-1920px.jpg" type="image/webp" data-alt="Интернет-магазин авто-товаров" data-title="Интернет-магазин авто-товаров">-->
+<!--                                                                    <img class="" src="Templates/Template_000011/Images/cropped-Pink-Depford-Store-Front-1920px.jpg" data-src="Templates/Template_000011/Images/cropped-Pink-Depford-Store-Front-1920px.jpg" alt="Интернет-магазин авто-товаров" title="Интернет-магазин авто-товаров">-->
+<!--                                                                </picture>-->
+                                                        <img src="https://images.wallpaperscraft.ru/image/single/uzory_stena_temnyj_29888_1920x1080.jpg" alt="" style="position: absolute; right: 0; top: 0; bottom: 0; width: 800px; height: 100%;">
                                                                 <noscript>
                                                                     <picture class="sync"><img class="sync" src="Media/demox-000-10/_assets/slider/red-sport-car-front-side-view-black-wheel-with-metallic-silver-color11.jpg" alt="Интернет-магазин авто-товаров" title="Интернет-магазин авто-товаров"></picture>
                                                                 </noscript>
                                                             </span>
-														<script type="application/ld+json">
-															{
-																"@context": "https://schema.org/",
-																"@type": "ImageObject",
-																"contentUrl": "Media/demox-000-10/slider/red-sport-car-front-side-view-black-wheel-with-metallic-silver-color11.jpg",
-																"datePublished": "2021-08-16",
-																"name": "Интернет-магазин авто-товаров",
-																"width": 2000,
-																"height": 1242
-															}
-														</script> <span class="slider-label">
-                                                                <span class="slider-name">
-                                                                    Интернет-магазин авто-товаров
+														 <span class="slider-label">
+                                                                <span class="slider-name animated-text">
+                                                                    Фірма "Сезам" пропонує різноманітні металеві вироби: вхідні двері з захистом від промерзання, ворота з автоматикою, грати на вікна, захисні металеві жалюзі, ковані вироби та інші. Виготовляє також МДФ фасади для дверей, міжкімнатні двері, металопластикові вікна та інші металеві конструкції. Заснована у 1991 році.
                                                                 </span> <span class="slider-description">
-                                                                    <p>У нас есть абсолютно всё, независимо от Ваших требований и финансовых возможностей!</p>
+                                                                    <p>У нас є абсолютно все, незалежно від ваших вимог і фінансових можливостей!</p>
                                                                     <p class="button"><a href="rus/shop/">Каталог</a><a href="rus/contacts/">Контакты</a></p>
                                                                 </span> </span>
 													</article>
@@ -5503,7 +5477,7 @@
 									<div class="category-horizontal-with-images">
 										<div class="row category-title">
 											<div class="max-12 desktop-12 tablet-6 mobile-3 min-3">
-												<div class="h2"> Категории магазина</div>
+												<div class="h2">Категорії виробів</div>
 											</div>
 										</div>
 										<div class="row categories-row auto-height">
@@ -5534,7 +5508,7 @@
 													</script>
 												</a></div>
 												<div class="category-name" style="text-align: center; padding-top: 25px; padding-bottom: 25px; padding-right: 25px; padding-left: 25px;"> <a href="rus/shop/avtoaksesuari/" target="_self" style="color: #fff; font-size: 21px; font-weight: bold; text-transform: uppercase;">
-													Item #1
+                                                    Металеві двері
 												</a></div>
 											</div>
 											<div class="category-block category-olivi-motorni max-4 desktop-4 tablet-3 mobile-1 min-3">
@@ -5562,7 +5536,7 @@
 														</script>
 													</a></div>
 												<div class="category-name" style="text-align: center; padding-top: 25px; padding-bottom: 25px; padding-right: 25px; padding-left: 25px;"> <a href="rus/shop/olivi-motorni/" target="_self" style="color: #fff; font-size: 21px; font-weight: bold; text-transform: uppercase;">
-													Item #2
+                                                    Металеві ворота з автоматикою і без
 												</a></div>
 											</div>
 											<div class="category-block category-avtoelektronika max-4 desktop-4 tablet-3 mobile-1 min-3">
@@ -5592,7 +5566,7 @@
 													</script>
 												</a></div>
 												<div class="category-name" style="text-align: center; padding-top: 25px; padding-bottom: 25px; padding-right: 25px; padding-left: 25px;"> <a href="rus/shop/avtoelektronika/" target="_self" style="color: #fff; font-size: 21px; font-weight: bold; text-transform: uppercase;">
-													Item #3
+                                                    Грати на вікна
 												</a></div>
 											</div>
 											<div class="category-block category-doglyad-za-avto max-4 desktop-4 tablet-3 mobile-1 min-3">
@@ -5622,7 +5596,7 @@
 													</script>
 												</a></div>
 												<div class="category-name" style="text-align: center; padding-top: 25px; padding-bottom: 25px; padding-right: 25px; padding-left: 25px;"> <a href="rus/shop/doglyad-za-avto/" target="_self" style="color: #fff; font-size: 21px; font-weight: bold; text-transform: uppercase;">
-													Item #4
+                                                    Захисні металеві жалюзі
 												</a></div>
 											</div>
 											<div class="category-block category-avtozapchastini max-4 desktop-4 tablet-3 mobile-1 min-3">
@@ -5652,9 +5626,189 @@
 													</script>
 												</a></div>
 												<div class="category-name" style="text-align: center; padding-top: 25px; padding-bottom: 25px; padding-right: 25px; padding-left: 25px;"> <a href="rus/shop/avtozapchastini/" target="_self" style="color: #fff; font-size: 21px; font-weight: bold; text-transform: uppercase;">
-													Item #5
+                                                    Навіси
 												</a></div>
 											</div>
+                                            <div class="category-block category-avtozapchastini max-4 desktop-4 tablet-3 mobile-1 min-3">
+                                                <div class="category-image"><a href="rus/shop/avtozapchastini/" target="_self" aria-label="Автозапчасти">
+
+
+
+                                                            <span class="container-async" style="padding-top: 100%">
+                                                                <picture class="async" data-original-src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg" data-alt="" data-title="">
+                                                                    <source data-srcset="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg-ratio-width-500-jpg.webp" type="image/webp" data-alt="" data-title="">
+                                                                    <img class="async" src="Templates/Template_000011/Images/black-interior-details-modern-luxury-car-ratio-10x10-proportions-jpg-ratio-width-500-jpg.webp" data-src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg" alt="" title="">
+                                                                </picture>
+                                                                <noscript>
+                                                                    <picture class="sync"><img class="sync" src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg" alt="" title=""></picture>
+                                                                </noscript>
+                                                            </span>
+                                                    <script type="application/ld+json">
+                                                        {
+                                                            "@context": "https://schema.org/",
+                                                            "@type": "ImageObject",
+                                                            "contentUrl": "WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg",
+                                                            "datePublished": "2023-03-15",
+                                                            "name": "",
+                                                            "width": 813,
+                                                            "height": 813
+                                                        }
+                                                    </script>
+                                                </a></div>
+                                                <div class="category-name" style="text-align: center; padding-top: 25px; padding-bottom: 25px; padding-right: 25px; padding-left: 25px;"> <a href="rus/shop/avtozapchastini/" target="_self" style="color: #fff; font-size: 21px; font-weight: bold; text-transform: uppercase;">
+                                                    Паркани
+                                                </a></div>
+                                            </div>
+                                            <div class="category-block category-avtozapchastini max-4 desktop-4 tablet-3 mobile-1 min-3">
+                                                <div class="category-image"><a href="rus/shop/avtozapchastini/" target="_self" aria-label="Автозапчасти">
+
+
+
+                                                            <span class="container-async" style="padding-top: 100%">
+                                                                <picture class="async" data-original-src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg" data-alt="" data-title="">
+                                                                    <source data-srcset="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg-ratio-width-500-jpg.webp" type="image/webp" data-alt="" data-title="">
+                                                                    <img class="async" src="Templates/Template_000011/Images/black-interior-details-modern-luxury-car-ratio-10x10-proportions-jpg-ratio-width-500-jpg.webp" data-src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg" alt="" title="">
+                                                                </picture>
+                                                                <noscript>
+                                                                    <picture class="sync"><img class="sync" src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg" alt="" title=""></picture>
+                                                                </noscript>
+                                                            </span>
+                                                    <script type="application/ld+json">
+                                                        {
+                                                            "@context": "https://schema.org/",
+                                                            "@type": "ImageObject",
+                                                            "contentUrl": "WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg",
+                                                            "datePublished": "2023-03-15",
+                                                            "name": "",
+                                                            "width": 813,
+                                                            "height": 813
+                                                        }
+                                                    </script>
+                                                </a></div>
+                                                <div class="category-name" style="text-align: center; padding-top: 25px; padding-bottom: 25px; padding-right: 25px; padding-left: 25px;"> <a href="rus/shop/avtozapchastini/" target="_self" style="color: #fff; font-size: 21px; font-weight: bold; text-transform: uppercase;">
+                                                    Металеві огорожі
+                                                </a></div>
+                                            </div>
+                                            <div class="category-block category-avtozapchastini max-4 desktop-4 tablet-3 mobile-1 min-3">
+                                                <div class="category-image"><a href="rus/shop/avtozapchastini/" target="_self" aria-label="Автозапчасти">
+
+
+
+                                                            <span class="container-async" style="padding-top: 100%">
+                                                                <picture class="async" data-original-src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg" data-alt="" data-title="">
+                                                                    <source data-srcset="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg-ratio-width-500-jpg.webp" type="image/webp" data-alt="" data-title="">
+                                                                    <img class="async" src="Templates/Template_000011/Images/black-interior-details-modern-luxury-car-ratio-10x10-proportions-jpg-ratio-width-500-jpg.webp" data-src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg" alt="" title="">
+                                                                </picture>
+                                                                <noscript>
+                                                                    <picture class="sync"><img class="sync" src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg" alt="" title=""></picture>
+                                                                </noscript>
+                                                            </span>
+                                                    <script type="application/ld+json">
+                                                        {
+                                                            "@context": "https://schema.org/",
+                                                            "@type": "ImageObject",
+                                                            "contentUrl": "WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg",
+                                                            "datePublished": "2023-03-15",
+                                                            "name": "",
+                                                            "width": 813,
+                                                            "height": 813
+                                                        }
+                                                    </script>
+                                                </a></div>
+                                                <div class="category-name" style="text-align: center; padding-top: 25px; padding-bottom: 25px; padding-right: 25px; padding-left: 25px;"> <a href="rus/shop/avtozapchastini/" target="_self" style="color: #fff; font-size: 21px; font-weight: bold; text-transform: uppercase;">
+                                                    Ковані вироби
+                                                </a></div>
+                                            </div>
+                                            <div class="category-block category-avtozapchastini max-4 desktop-4 tablet-3 mobile-1 min-3">
+                                                <div class="category-image"><a href="rus/shop/avtozapchastini/" target="_self" aria-label="Автозапчасти">
+
+
+
+                                                            <span class="container-async" style="padding-top: 100%">
+                                                                <picture class="async" data-original-src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg" data-alt="" data-title="">
+                                                                    <source data-srcset="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg-ratio-width-500-jpg.webp" type="image/webp" data-alt="" data-title="">
+                                                                    <img class="async" src="Templates/Template_000011/Images/black-interior-details-modern-luxury-car-ratio-10x10-proportions-jpg-ratio-width-500-jpg.webp" data-src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg" alt="" title="">
+                                                                </picture>
+                                                                <noscript>
+                                                                    <picture class="sync"><img class="sync" src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg" alt="" title=""></picture>
+                                                                </noscript>
+                                                            </span>
+                                                    <script type="application/ld+json">
+                                                        {
+                                                            "@context": "https://schema.org/",
+                                                            "@type": "ImageObject",
+                                                            "contentUrl": "WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg",
+                                                            "datePublished": "2023-03-15",
+                                                            "name": "",
+                                                            "width": 813,
+                                                            "height": 813
+                                                        }
+                                                    </script>
+                                                </a></div>
+                                                <div class="category-name" style="text-align: center; padding-top: 25px; padding-bottom: 25px; padding-right: 25px; padding-left: 25px;"> <a href="rus/shop/avtozapchastini/" target="_self" style="color: #fff; font-size: 21px; font-weight: bold; text-transform: uppercase;">
+                                                    МДФ фасади для дверей
+                                                </a></div>
+                                            </div>
+                                            <div class="category-block category-avtozapchastini max-4 desktop-4 tablet-3 mobile-1 min-3">
+                                                <div class="category-image"><a href="rus/shop/avtozapchastini/" target="_self" aria-label="Автозапчасти">
+
+
+
+                                                            <span class="container-async" style="padding-top: 100%">
+                                                                <picture class="async" data-original-src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg" data-alt="" data-title="">
+                                                                    <source data-srcset="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg-ratio-width-500-jpg.webp" type="image/webp" data-alt="" data-title="">
+                                                                    <img class="async" src="Templates/Template_000011/Images/black-interior-details-modern-luxury-car-ratio-10x10-proportions-jpg-ratio-width-500-jpg.webp" data-src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg" alt="" title="">
+                                                                </picture>
+                                                                <noscript>
+                                                                    <picture class="sync"><img class="sync" src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg" alt="" title=""></picture>
+                                                                </noscript>
+                                                            </span>
+                                                    <script type="application/ld+json">
+                                                        {
+                                                            "@context": "https://schema.org/",
+                                                            "@type": "ImageObject",
+                                                            "contentUrl": "WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg",
+                                                            "datePublished": "2023-03-15",
+                                                            "name": "",
+                                                            "width": 813,
+                                                            "height": 813
+                                                        }
+                                                    </script>
+                                                </a></div>
+                                                <div class="category-name" style="text-align: center; padding-top: 25px; padding-bottom: 25px; padding-right: 25px; padding-left: 25px;"> <a href="rus/shop/avtozapchastini/" target="_self" style="color: #fff; font-size: 21px; font-weight: bold; text-transform: uppercase;">
+                                                    Міжкімнатні двері
+                                                </a></div>
+                                            </div>
+                                            <div class="category-block category-avtozapchastini max-4 desktop-4 tablet-3 mobile-1 min-3">
+                                                <div class="category-image"><a href="rus/shop/avtozapchastini/" target="_self" aria-label="Автозапчасти">
+
+
+
+                                                            <span class="container-async" style="padding-top: 100%">
+                                                                <picture class="async" data-original-src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg" data-alt="" data-title="">
+                                                                    <source data-srcset="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg-ratio-width-500-jpg.webp" type="image/webp" data-alt="" data-title="">
+                                                                    <img class="async" src="Templates/Template_000011/Images/black-interior-details-modern-luxury-car-ratio-10x10-proportions-jpg-ratio-width-500-jpg.webp" data-src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg" alt="" title="">
+                                                                </picture>
+                                                                <noscript>
+                                                                    <picture class="sync"><img class="sync" src="WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg" alt="" title=""></picture>
+                                                                </noscript>
+                                                            </span>
+                                                    <script type="application/ld+json">
+                                                        {
+                                                            "@context": "https://schema.org/",
+                                                            "@type": "ImageObject",
+                                                            "contentUrl": "WebCache/Media/demox-000-10/_assets/svoechasna-zamina-svichok-zapalennya---vpevnena-robota-vashogo-avtomobilya-1-ratio-10x10-proportions-jpg.jpg",
+                                                            "datePublished": "2023-03-15",
+                                                            "name": "",
+                                                            "width": 813,
+                                                            "height": 813
+                                                        }
+                                                    </script>
+                                                </a></div>
+                                                <div class="category-name" style="text-align: center; padding-top: 25px; padding-bottom: 25px; padding-right: 25px; padding-left: 25px;"> <a href="rus/shop/avtozapchastini/" target="_self" style="color: #fff; font-size: 21px; font-weight: bold; text-transform: uppercase;">
+                                                    Металопластикові вікна
+                                                </a></div>
+                                            </div>
 											<div class="category-block category-ridini-omivacha-skla max-4 desktop-4 tablet-3 mobile-1 min-3">
 												<div class="category-image"><a href="rus/shop/ridini-omivacha-skla/" target="_self" aria-label="Жидкости омывателя стекла">
 
@@ -5682,7 +5836,7 @@
 													</script>
 												</a></div>
 												<div class="category-name" style="text-align: center; padding-top: 25px; padding-bottom: 25px; padding-right: 25px; padding-left: 25px;"> <a href="rus/shop/ridini-omivacha-skla/" target="_self" style="color: #fff; font-size: 21px; font-weight: bold; text-transform: uppercase;">
-													Item #6
+                                                    Інші металеві вироби
 												</a></div>
 											</div>
 										</div>
@@ -5864,12 +6018,10 @@
                                                 <li id="menu-item-home" class="current has-no-submenu has-no-widget"> <a href="rus/" target="_self" style="color: #363636; font-size: 16px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px; padding-left: 0px;">
                                                         Главная
                                                     </a> </li>
-                                                <li id="menu-item-shop" class="common has-submenu has-no-widget"> <a href="rus/shop/" target="_self" style="color: #363636; font-size: 16px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px; padding-left: 0px;">
-                                                        Магазин
+                                                <li id="menu-item-for-customers" class="common has-no-submenu has-no-widget"> <a href="rus/for-customers/" target="_self" style="color: #363636; font-size: 16px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px; padding-left: 0px;">
+                                                        Категории
                                                     </a> </li>
-                                                <li id="menu-item-blog" class="common has-no-submenu has-no-widget"> <a href="rus/blog/" target="_self" style="color: #363636; font-size: 16px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px; padding-left: 0px;">
-                                                        Блог
-                                                    </a> </li>
+
                                                 <li id="menu-item-for-customers" class="common has-no-submenu has-no-widget"> <a href="rus/for-customers/" target="_self" style="color: #363636; font-size: 16px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px; padding-left: 0px;">
                                                         Покупателям
                                                     </a> </li>
@@ -5909,13 +6061,21 @@
                             </div>
                             <div class="layout-cell-plugin layout-cell-plugin" id="cb8uq">
                                 <div class="plugin-layout-inner">
-                                    <div class="plugin-default social-networks" id="social-networks" style="text-align: left;">
+                                    <div class="plugin-default social-networks"  style="text-align: left;">
                                         <div class="plugin-default-social-networks with-style" style="margin-left: 3px; margin-right: 3px;">
                                             <div class="social-networks"> <a href="https://www.facebook.com/" target="Blank" rel="nofollow" aria-label="Facebook">
-                                                    <span style="background: transperent; width: 32px; height: 32px; border-radius: none; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="100%" height="100%" x="0" y="0" viewbox="0 0 24 24" xml:space="preserve" class="">
+                                                    <span style="background-color: transparent; width: 32px; height: 32px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                             xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                             xmlns:svgjs="http://svgjs.com/svgjs" version="1.1"
+                                                             width="100%" height="100%" x="0" y="0" viewbox="0 0 24 24"
+                                                             xml:space="preserve" class=""
+                                                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                                             xsi:schemaLocation="http://svgjs.com/svgjs ">
                                                             <g>
-                                                                <path xmlns="http://www.w3.org/2000/svg" d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z" fill="#363636" data-original="#000000"></path>
+                                                                <path xmlns="http://www.w3.org/2000/svg"
+                                                                      d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"
+                                                                      fill="#363636" data-original="#000000"></path>
                                                             </g>
                                                         </svg>
                                                     </span>
@@ -5924,7 +6084,7 @@
                                         </div>
                                         <div class="plugin-default-social-networks with-style" style="margin-left: 3px; margin-right: 3px;">
                                             <div class="social-networks"> <a href="https://www.instagram.com/" target="Blank" rel="nofollow" aria-label="Instagram">
-                                                    <span style="background: transperent; width: 32px; height: 32px; border-radius: none; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                    <span style="background: transparent; width: 32px; height: 32px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
                                                         <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 511 511.9">
                                                             <path fill="#363636" d="M510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5C407.851562 7.199219 389.25 2.800781 362.050781 1.601562 334.648438.300781 325.949219 0 256.449219 0s-78.199219.300781-105.5 1.5C123.75 2.699219 105.050781 7.101562 88.851562 13.398438 71.648438 19.898438 56.25 29.898438 43.449219 43c-13 12.800781-23.097657 28.300781-29.5 45.300781C7.648438 104.601562 3.25 123.199219 2.050781 150.398438.75 177.800781.449219 186.5.449219 256s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438C56.25 482 71.75 492.101562 88.75 498.5c16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5C389.050781 509.199219 407.75 504.800781 423.949219 498.5c34.402343-13.300781 61.601562-40.5 74.902343-74.898438C505.148438 407.300781 509.550781 388.699219 510.75 361.5c1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876C94.550781 451.5 84.449219 445 76.25 436.5c-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5C61.25 94.199219 67.75 84.101562 76.351562 75.898438c8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0"></path>
                                                             <path fill="#363636" d="M256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781C303.550781 170.699219 341.75 208.898438 341.75 256s-38.199219 85.300781-85.300781 85.300781zM423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0"></path>
@@ -5935,7 +6095,7 @@
                                         </div>
                                         <div class="plugin-default-social-networks with-style" style="margin-left: 3px; margin-right: 3px;">
                                             <div class="social-networks"> <a href="viber://chat?number=%2B380999999999" target="Blank" rel="nofollow" aria-label="Viber">
-                                                    <span style="background: transperent; width: 32px; height: 32px; border-radius: none; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                    <span style="background-color: transparent; width: 32px; height: 32px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
                                                         <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 152 152">
                                                             <path fill="#363636" d="M89 11H63c-25.2 0-45.5 20.3-45.5 45.5V76c0 17.6 10.1 33.6 26 41.1v21.8c0 1.1 1 2.1 2.3 2.1.5 0 1.1-.2 1.5-.6l18.8-18.9H89c25.2 0 45.5-20.3 45.5-45.5V56.5C134.5 31.3 114.2 11 89 11zm17.1 85.3-6.5 6.5c-7 6.8-25-1-40.9-17.2s-23-34.5-16.3-41.3l6.5-6.5c2.6-2.4 6.7-2.3 9.3.2l9.4 9.8c2.4 2.6 2.4 6.5-.2 9.1-.7.7-1.5 1.1-2.4 1.5-3.3 1-5 4.2-4.2 7.5 1.6 7.2 10.7 16.2 17.6 18 3.2.8 6.5-1 7.6-4.1 1.1-3.2 4.7-5 8.1-3.9 1 .3 1.8 1 2.6 1.6l9.4 9.8c2.4 2.4 2.4 6.4 0 9zM81.8 41.9c-.7 0-1.3 0-1.9.2-1.1.2-2.3-.7-2.4-2s.7-2.3 1.9-2.4c.8-.2 1.6-.2 2.4-.2 12 0 21.6 9.8 21.8 21.6 0 .8 0 1.6-.2 2.4-.2 1.1-1.1 2.1-2.4 1.9s-2.1-1.1-1.9-2.4c0-.7.2-1.3.2-1.9-.1-9.4-7.9-17.2-17.5-17.2zm13 17.4c-.2 1.1-1.1 2.1-2.4 1.9-1-.2-1.9-1-1.9-1.9 0-4.7-3.9-8.6-8.6-8.6-1.1.2-2.3-.8-2.4-2-.2-1.1.8-2.3 1.9-2.4h.3c7.5 0 13.1 5.8 13.1 13zm16.6 6.9c-.2 1.1-1.3 1.9-2.4 1.8s-1.9-1.3-1.8-2.4v-.3c.5-1.9.7-3.9.7-6 0-14.3-11.7-26-26-26H80c-1.1.2-2.3-.8-2.3-2-.2-1.1.8-2.3 1.9-2.3.8 0 1.6-.2 2.3-.2 16.7 0 30.4 13.6 30.4 30.4-.1 2.3-.4 4.8-.9 7z"></path>
                                                         </svg>
@@ -5945,7 +6105,7 @@
                                         </div>
                                         <div class="plugin-default-social-networks with-style" style="margin-left: 3px; margin-right: 3px;">
                                             <div class="social-networks"> <a href="tg://resolve?domain=username/" target="Blank" rel="nofollow" aria-label="Telegram">
-                                                    <span style="background: transperent; width: 32px; height: 32px; border-radius: none; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                    <span style="background-color: transparent; width: 32px; height: 32px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
                                                         <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
                                                             <path fill="#363636" d="m9.417 15.181-.397 5.584c.568 0 .814-.244 1.109-.537l2.663-2.545 5.518 4.041c1.012.564 1.725.267 1.998-.931L23.93 3.821l.001-.001c.321-1.496-.541-2.081-1.527-1.714l-21.29 8.151c-1.453.564-1.431 1.374-.247 1.741l5.443 1.693L18.953 5.78c.595-.394 1.136-.176.691.218z"></path>
                                                         </svg>
@@ -5955,7 +6115,7 @@
                                         </div>
                                         <div class="plugin-default-social-networks with-style" style="margin-left: 3px; margin-right: 3px;">
                                             <div class="social-networks"> <a href="https://api.whatsapp.com/send?phone=+380999999999" target="Blank" rel="nofollow" aria-label="WhatsApp">
-                                                    <span style="background: transperent; width: 32px; height: 32px; border-radius: none; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                    <span style="background: transparent; width: 32px; height: 32px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
                                                         <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="enable-background:new 0 0 512 512" viewbox="0 0 512 512">
                                                             <path fill="#363636" d="M256.064 0h-.128C114.784 0 0 114.816 0 256c0 56 18.048 107.904 48.736 150.048l-31.904 95.104 98.4-31.456C155.712 496.512 204 512 256.064 512 397.216 512 512 397.152 512 256S397.216 0 256.064 0zm148.96 361.504c-6.176 17.44-30.688 31.904-50.24 36.128-13.376 2.848-30.848 5.12-89.664-19.264-75.232-31.168-123.68-107.616-127.456-112.576-3.616-4.96-30.4-40.48-30.4-77.216s18.656-54.624 26.176-62.304c6.176-6.304 16.384-9.184 26.176-9.184 3.168 0 6.016.16 8.576.288 7.52.32 11.296.768 16.256 12.64 6.176 14.88 21.216 51.616 23.008 55.392 1.824 3.776 3.648 8.896 1.088 13.856-2.4 5.12-4.512 7.392-8.288 11.744-3.776 4.352-7.36 7.68-11.136 12.352-3.456 4.064-7.36 8.416-3.008 15.936 4.352 7.36 19.392 31.904 41.536 51.616 28.576 25.44 51.744 33.568 60.032 37.024 6.176 2.56 13.536 1.952 18.048-2.848 5.728-6.176 12.8-16.416 20-26.496 5.12-7.232 11.584-8.128 18.368-5.568 6.912 2.4 43.488 20.48 51.008 24.224 7.52 3.776 12.48 5.568 14.304 8.736 1.792 3.168 1.792 18.048-4.384 35.52z"></path>
                                                         </svg>
@@ -5965,7 +6125,7 @@
                                         </div>
                                         <div class="plugin-default-social-networks with-style" style="margin-left: 3px; margin-right: 3px;">
                                             <div class="social-networks"> <a href="https://www.youtube.com/" target="Blank" rel="nofollow" aria-label="YouTube">
-                                                    <span style="background: transperent; width: 32px; height: 32px; border-radius: none; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
+                                                    <span style="background-color: transparent; width: 32px; height: 32px; border-radius: 0; padding: 20%; display: block; min-height: 20px; min-width: 20px;">
                                                         <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="enable-background:new 0 0 310 310" viewbox="0 0 310 310">
                                                             <path fill="#363636" d="M297.917 64.645c-11.19-13.302-31.85-18.728-71.306-18.728H83.386c-40.359 0-61.369 5.776-72.517 19.938C0 79.663 0 100.008 0 128.166v53.669c0 54.551 12.896 82.248 83.386 82.248h143.226c34.216 0 53.176-4.788 65.442-16.527C304.633 235.518 310 215.863 310 181.835v-53.669c0-29.695-.841-50.16-12.083-63.521zm-98.896 97.765-65.038 33.991c-1.454.76-3.044 1.137-4.632 1.137-1.798 0-3.592-.484-5.181-1.446-2.992-1.813-4.819-5.056-4.819-8.554v-67.764c0-3.492 1.822-6.732 4.808-8.546 2.987-1.814 6.702-1.938 9.801-.328l65.038 33.772c3.309 1.718 5.387 5.134 5.392 8.861.004 3.73-2.065 7.151-5.369 8.877z"></path>
                                                         </svg>
@@ -6009,21 +6169,7 @@
             </section>
         </span>
 </div>
-<script>
-	function ProductsAutoHeight() {
-		$._plugin(typeof $.fn['matchHeight'] === "undefined", "Static/Scripts/matchheight.min.js", null, function() {
-			$.fn.matchHeight._maintainScroll = true;
 
-			$('div.auto-height div.product-name').matchHeight();
-			$('div.auto-height div.product-image').matchHeight();
-			$('div.auto-height div.product-prices').matchHeight();
-			$('div.auto-height div.product-price-buy-block').matchHeight();
-			$('div.auto-height div.product-block').matchHeight();
-		});
-	}
-
-	var _initlozadto;
-</script>
 <div class="sidebar-popup shopping-cart hidden" data-url="rus/sidebar/shoppingcart" data-express-checkout-url="rus/sidebar/sidebarexpresscheckout">
 	<div class="loader">
 		<div class="loader-inner">Loading...</div>
@@ -6041,95 +6187,15 @@
 	</a></div>
 	<div class="content"></div>
 </div>
-<script>
-	_state.on("wishlistready", function() {
-		window._wishlistactions = new WishlistManager.WishListAction($("a.wishlist-block"));
 
-		window._wishlistactions.on("removed", function(sender, args) {
-			if (args.Element.data("container")) {
-				$(args.Element.parents(args.Element.data("container"))).remove();
 
-				if (sender.Items.length == 0) {
-					loader.Show();
-
-					window.location.reload();
-				}
-			}
-		})
-	});
-</script>
-<script>
-	_state.on("compareready", function() {
-		window._compareactions = new CompareManager.CompareAction($("a.compare-block"));
-
-		window._compareactions.on("removed", function(sender, args) {
-			if (args.Init == false) {
-				if (args.Action.Element.data("container")) {
-					$(args.Action.Element.parents(args.Action.Element.data("container"))).remove();
-
-					if (sender.Items.length == 0) {
-						loader.Show();
-
-						window.location.reload();
-					}
-				}
-			}
-		});
-
-		window._compareactions.on("added", function(sender, args) {
-			if (args.Init == false) {
-				$._plugin(typeof $.fn['toastmessage'] === "undefined", "Templates/Template_000011/Js/jquery.toastmessage.js", "Templates/Template_000011/Css/jquery.toastmessage.css", function() {
-					if (window._comparemessage) {
-						window._comparemessage.hide();
-					}
-
-					window._comparemessage = $().toastmessage('showToast', {
-						text: '<p>Товар добавлен в список сравнения.</p><p><a href="rus/compare/index/">Перейти к сравнению</a></p>',
-						sticky: false,
-						position: 'top-right',
-						type: 'success',
-						inEffectDuration: 600,
-						stayTime: 5000
-					});
-				});
-			}
-		});
-
-		window._compareactions.on("error", function(sender, args) {
-			$._plugin(typeof $.fn['toastmessage'] === "undefined", "Templates/Template_000011/Js/jquery.toastmessage.js", "Templates/Template_000011/Css/jquery.toastmessage.css", function() {
-				if (window._comparemessage) {
-					window._comparemessage.hide();
-				}
-
-				window._comparemessage = $().toastmessage('showToast', {
-					text: '<p>Не удалось закончить операцию, пожалуйста повторите попытку.</p><p><a href="rus/compare/index/">Перейти к сравнению</a></p>',
-					sticky: false,
-					position: 'top-right',
-					type: 'success',
-					inEffectDuration: 600,
-					stayTime: 5000
-				});
-			});
-		});
-	});
-</script>
 <script type="text/html" id="price-regular-template">
 	<div class="product-price-regular"><span class="regular-price" data-content="Price"></span></div>
 </script>
 <script type="text/html" id="price-action-template">
 	<div class="product-price-action"><span class="regular-price" data-content="Price"></span> <span class="action-price" data-content="ActionPrice"></span></div>
 </script>
-<script>
-	_state.on("ready", function() {
-		$('<div class="loader"><div class="loader-inner">Loading...</div></div>').appendTo('body.gridlock');
 
-		if ($("div.review-stars").length > 0 && $("article#comment-create-container").length > 0) {
-			window._stars = new Comments.ReviewStarsUI("div.review-stars");
-
-			window._comments = new Comments.CommentsUI($("article#comment-create-container"), window._stars);
-		}
-	});
-</script>
 <div class="sidebar-popup login-account hidden" data-url="rus/sidebar/userprofile" data-message-url="rus/sidebar/messages" data-chnage-pass-url="rus/sidebar/changepassword" data-register-url="rus/sidebar/register" data-forgot-password-url="rus/sidebar/forgotpassword" data-reset-password-url="rus/sidebar/resetpassword">
 	<div class="loader">
 		<div class="loader-inner">Loading...</div>
@@ -6157,28 +6223,26 @@
 			<li class="menu-title"><strong>
 				Меню
 			</strong></li>
-			<li id="menu-item-home" class="current has-no-submenu has-no-widget"><a href="rus/" target="_self">
+			<li class="menu-item-home" class="current has-no-submenu has-no-widget"><a href="rus/" target="_self">
 				Главная
 			</a></li>
-			<li id="menu-item-shop" class="common has-submenu has-no-widget"><a href="rus/shop/" target="_self">
-				Магазин
-			</a></li>
-			<li id="menu-item-blog" class="common has-no-submenu has-no-widget"><a href="rus/blog/" target="_self">
-				Блог
-			</a></li>
-			<li id="menu-item-for-customers" class="common has-submenu has-no-widget"><a href="rus/for-customers/" target="_self">
+            <li id="menu-item-for-customers" class="common has-no-submenu has-no-widget"> <a href="rus/for-customers/" target="_self" style="color: #363636; font-size: 16px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px; padding-left: 0px;">
+                Категории
+            </a> </li>
+
+			<li class="menu-item-for-customers" class="common has-submenu has-no-widget"><a href="rus/for-customers/" target="_self">
 				Покупателям
 			</a>
 				<ul class="submenu">
-					<li id="menu-item-pro-nas" class="common has-no-submenu has-no-widget submenu"><a href="rus/for-customers/pro-nas/" target="_self">
+					<li class="menu-item-pro-nas" class="common has-no-submenu has-no-widget submenu"><a href="rus/for-customers/pro-nas/" target="_self">
 						О нас
 					</a></li>
-					<li id="menu-item-dostavka-i-oplata" class="common has-no-submenu has-no-widget submenu"><a href="rus/for-customers/dostavka-i-oplata/" target="_self">
+					<li class="menu-item-dostavka-i-oplata" class="common has-no-submenu has-no-widget submenu"><a href="rus/for-customers/dostavka-i-oplata/" target="_self">
 						Доставка и оплата
 					</a></li>
 				</ul>
 			</li>
-			<li id="menu-item-contacts" class="common has-no-submenu has-no-widget"><a href="rus/contacts/" target="_self">
+			<li class="menu-item-contacts" class="common has-no-submenu has-no-widget"><a href="rus/contacts/" target="_self">
 				Контакты
 			</a></li>
 		</ul>
@@ -7099,6 +7163,33 @@
 	}
 </script>
 <script src="Static/Scripts/index.js"></script>
+
+<!-- Подключение библиотек ScrollMagic и TweenMax -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+
+<script>
+    // Создание нового контроллера ScrollMagic
+    var controller = new ScrollMagic.Controller();
+
+    // Создание сцены ScrollMagic
+    var scene = new ScrollMagic.Scene({
+        triggerElement: ".animated-text", // Элемент, при достижении которого начнется анимация
+        triggerHook: 0.8, // Момент старта анимации, относительно высоты экрана (80%)
+        reverse: false // Отключение обратного проигрывания анимации при скроллинге назад
+    })
+        .on("enter", function() {
+            // Анимация появления текста
+            TweenMax.to(".animated-text", 0.5, {opacity: 1, y: 0, ease: "easeOut"});
+        })
+        .on("leave", function() {
+            // Анимация исчезания текста
+            TweenMax.to(".animated-text", 0.5, {opacity: 0, y: -30, ease: "easeOut"});
+        })
+        .addTo(controller); // Добавление сцены в контроллер
+</script>
+
 </body>
 
 </html>

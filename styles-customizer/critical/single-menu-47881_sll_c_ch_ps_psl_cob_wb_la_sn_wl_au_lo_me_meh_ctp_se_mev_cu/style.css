@@ -17,16 +17,7 @@ body.gridlock section.advantage-cards .row .layout-cell .plugin-layout-inner {
     padding-bottom: 12px;
 }
 
-.burger-btn {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 30px;
-    border: none;
-    background: none;
-    padding: 0!important;
-}
+
 
 .burger-btn>span {
     width: 100%;
@@ -35,8 +26,8 @@ body.gridlock section.advantage-cards .row .layout-cell .plugin-layout-inner {
 }
 
 .burger-btn {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border: none;
     background-color: transparent;
     cursor: pointer;
@@ -104,4 +95,10 @@ body.gridlock section.advantage-cards .row .layout-cell .plugin-layout-inner {
     #fwidth {
         max-width: 1200px;
     }
+}
+
+.animated-text {
+    opacity: 0;
+    transform: translateY(100px); /* Начальное смещение вниз на 100px */
+    transition: opacity 0.5s, transform 0.5s; /* Анимация прозрачности и смещения */
 }

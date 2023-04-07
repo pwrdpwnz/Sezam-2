@@ -676,19 +676,19 @@ section.full-width div.row.layout-row {
     opacity: 1
 }
 
-#social-networks {
+.social-networks {
     transition: all 0.25s ease-in
 }
 
-#social-networks > p {
+.social-networks > p {
     margin: 0 0 8px 0
 }
 
-#social-networks .plugin-default-social-networks.scaleto:hover a img {
+.social-networks .plugin-default-social-networks.scaleto:hover a img {
     transform: scale(1.05)
 }
 
-#social-networks .plugin-default-social-networks {
+.social-networks .plugin-default-social-networks {
     line-height: 0;
     position: relative;
     overflow: hidden;
@@ -696,31 +696,31 @@ section.full-width div.row.layout-row {
     transition: all 0.25s ease-in
 }
 
-#social-networks .plugin-default-social-networks:first-child {
+.social-networks .plugin-default-social-networks:first-child {
     margin-left: 0 !important
 }
 
-#social-networks .plugin-default-social-networks:last-child {
+.social-networks .plugin-default-social-networks:last-child {
     margin-right: 0 !important
 }
 
-#social-networks .plugin-default-social-networks a {
+.social-networks .plugin-default-social-networks a {
     display: block;
     text-align: center
 }
 
-#social-networks .plugin-default-social-networks a img {
+.social-networks .plugin-default-social-networks a img {
     width: 50px;
     height: auto;
     max-height: 200px;
     transition: all 0.25s ease-in
 }
 
-#social-networks .plugin-default-social-networks:hover {
+.social-networks .plugin-default-social-networks:hover {
     opacity: 0.7
 }
 
-#social-networks .plugin-default-social-networks span.plugin-image-additional {
+.social-networks .plugin-default-social-networks span.plugin-image-additional {
     top: 0;
     left: 0;
     opacity: 0;
@@ -4172,12 +4172,12 @@ body.gridlock .search-mobile svg {
     display: none
 }
 
-body.gridlock div#social-networks {
+body.gridlock div.social-networks {
     margin: 15px 0;
     line-height: 0
 }
 
-body.gridlock div#social-networks p {
+body.gridlock div.social-networks p {
     font-size: 16px;
     margin-bottom: 10px
 }
@@ -4846,10 +4846,9 @@ body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin art
 body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin article span.slider-label span.slider-name, body.gridlock section.slider div.plugin-layout-inner div.carousel article span.slider-label span.slider-name, body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin div.item span.slider-label span.slider-name, body.gridlock section.slider div.plugin-layout-inner div.carousel div.item span.slider-label span.slider-name {
     width: 100%;
     display: block;
-    font-size: 40px;
+    font-size: 23px;
     font-weight: 600;
-    color: #ffffff;
-    margin-bottom: 10px;
+    color: #fff;
     width: 45%;
     line-height: 110%;
     margin-bottom: 20px;
@@ -5951,7 +5950,7 @@ body.gridlock.current-menu-blog div.sticky {
         text-align: center !important
     }
 
-    body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner p, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner a, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner h2, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner h3, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner h4, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner h5, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner #social-networks, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner .logo-plugin, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner ul, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner li {
+    body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner p, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner a, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner h2, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner h3, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner h4, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner h5, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner .social-networks, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner .logo-plugin, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner ul, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner li {
         text-align: center !important
     }
 
@@ -5998,7 +5997,7 @@ body.gridlock.current-menu-blog div.sticky {
 
     body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin article span.slider-label span.slider-name, body.gridlock section.slider div.plugin-layout-inner div.carousel article span.slider-label span.slider-name, body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin div.item span.slider-label span.slider-name, body.gridlock section.slider div.plugin-layout-inner div.carousel div.item span.slider-label span.slider-name {
         width: 100%;
-        font-size: 26px;
+        font-size: 18px;
         text-align: center
     }
 
@@ -6037,7 +6036,7 @@ body.gridlock.current-menu-blog div.sticky {
         text-align: center !important
     }
 
-    body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner p, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner a, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner h2, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner h3, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner h4, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner h5, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner #social-networks, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner .logo-plugin, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner ul, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner li {
+    body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner p, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner a, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner h2, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner h3, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner h4, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner h5, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner .social-networks, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner .logo-plugin, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner ul, body.gridlock span#widget-footer section div.row div.layout-cell div.layout-cell-plugin div.plugin-layout-inner li {
         text-align: center !important
     }
 
@@ -6076,23 +6075,23 @@ body.gridlock.current-menu-blog div.sticky {
 
     body.gridlock span#widget-header section:nth-child(2) .layout-cell div.layout-inner, body.gridlock span#widget-header section:nth-child(2) .layout-cell div.layout-cell-plugin, body.gridlock span#widget-header section:nth-child(2) .layout-cell div.plugin-layout-inner {
         height: unset !important;
-        display: block !important
+        display: block !important;
     }
 
     body.gridlock span#widget-header section:nth-child(2) .layout-cell div.plugin-cart {
-        text-align: right
+        text-align: right;
     }
 
     body.gridlock section.slide-menu .row {
-        width: 480px
+        width: 480px;
     }
 
     body.gridlock.current-menu-home span#widget-header section:nth-child(2) {
-        margin-bottom: 0
+        margin-bottom: 0;
     }
 
     body.gridlock.current-menu-home span#widget-header section.slide-menu {
-        margin-top: 0px
+        margin-top: 0;
     }
 
     body.gridlock div.category-block {
@@ -6124,12 +6123,12 @@ body.gridlock.current-menu-blog div.sticky {
 
     body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin article span.slider-label, body.gridlock section.slider div.plugin-layout-inner div.carousel article span.slider-label, body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin div.item span.slider-label, body.gridlock section.slider div.plugin-layout-inner div.carousel div.item span.slider-label {
         padding-left: 30px;
-        padding-right: 30px
+        padding-right: 30px;
     }
 
     body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin article span.slider-label span.slider-name, body.gridlock section.slider div.plugin-layout-inner div.carousel article span.slider-label span.slider-name, body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin div.item span.slider-label span.slider-name, body.gridlock section.slider div.plugin-layout-inner div.carousel div.item span.slider-label span.slider-name {
         width: 95%;
-        font-size: 30px
+        font-size: 21px;
     }
 
     body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin article span.slider-label span.slider-description p.button, body.gridlock section.slider div.plugin-layout-inner div.carousel article span.slider-label span.slider-description p.button, body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin div.item span.slider-label span.slider-description p.button, body.gridlock section.slider div.plugin-layout-inner div.carousel div.item span.slider-label span.slider-description p.button {
@@ -6195,7 +6194,7 @@ body.gridlock.current-menu-blog div.sticky {
 
     body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin article span.slider-label span.slider-name, body.gridlock section.slider div.plugin-layout-inner div.carousel article span.slider-label span.slider-name, body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin div.item span.slider-label span.slider-name, body.gridlock section.slider div.plugin-layout-inner div.carousel div.item span.slider-label span.slider-name {
         width: 65%;
-        font-size: 30px
+        font-size: 18px
     }
 
     body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin article span.slider-label span.slider-description p.button, body.gridlock section.slider div.plugin-layout-inner div.carousel article span.slider-label span.slider-description p.button, body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin div.item span.slider-label span.slider-description p.button, body.gridlock section.slider div.plugin-layout-inner div.carousel div.item span.slider-label span.slider-description p.button {
@@ -6218,7 +6217,7 @@ body.gridlock.current-menu-blog div.sticky {
     }
 
     body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin article span.slider-label span.slider-name, body.gridlock section.slider div.plugin-layout-inner div.carousel article span.slider-label span.slider-name, body.gridlock section.slider div.plugin-layout-inner div.light-slider-plugin div.item span.slider-label span.slider-name, body.gridlock section.slider div.plugin-layout-inner div.carousel div.item span.slider-label span.slider-name {
-        font-size: 30px
+        font-size: 20px
     }
 
     body.gridlock div.category-block div.category-name a:not(.button) {
