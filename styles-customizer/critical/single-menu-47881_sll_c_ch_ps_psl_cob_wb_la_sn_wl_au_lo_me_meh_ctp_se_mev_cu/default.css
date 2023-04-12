@@ -4964,22 +4964,22 @@ body.gridlock article ul:not([class]) li:not([class]), body.gridlock article.lay
     padding-left: 33px
 }
 
-body.gridlock article ul:not([class]) li:not([class])::before, body.gridlock article.layout-container ul:not([class]) li:not([class])::before, body.gridlock div.row ul:not([class]) li:not([class])::before, body.gridlock div.plugin-layout-inner ul:not([class]) li:not([class])::before, body.gridlock article ol:not([class]) li:not([class])::before, body.gridlock article.layout-container ol:not([class]) li:not([class])::before, body.gridlock div.row ol:not([class]) li:not([class])::before, body.gridlock div.plugin-layout-inner ol:not([class]) li:not([class])::before {
-    content: "";
-    display: block;
-    width: 22px;
-    height: 22px;
-    background-size: 11px;
-    background-color: #DA2D2E;
-    background-image: url(/Media/demox-000-10/icons/check-white.svg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    border-radius: 0px;
-    position: absolute;
-    left: 0;
-    top: 0px;
-    border: 1px solid #ffffff
-}
+/*body.gridlock article ul:not([class]) li:not([class])::before, body.gridlock article.layout-container ul:not([class]) li:not([class])::before, body.gridlock div.row ul:not([class]) li:not([class])::before, body.gridlock div.plugin-layout-inner ul:not([class]) li:not([class])::before, body.gridlock article ol:not([class]) li:not([class])::before, body.gridlock article.layout-container ol:not([class]) li:not([class])::before, body.gridlock div.row ol:not([class]) li:not([class])::before, body.gridlock div.plugin-layout-inner ol:not([class]) li:not([class])::before {*/
+/*    content: "";*/
+/*    display: block;*/
+/*    width: 22px;*/
+/*    height: 22px;*/
+/*    background-size: 11px;*/
+/*    background-color: #DA2D2E;*/
+/*    background-image: url(/Media/demox-000-10/icons/check-white.svg);*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center center;*/
+/*    border-radius: 0px;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 0px;*/
+/*    border: 1px solid #ffffff*/
+/*}*/
 
 body.gridlock h1 {
     margin: 30px 0;

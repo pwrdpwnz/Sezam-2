@@ -1,13 +1,14 @@
 
 
-// Получаем кнопку бургер-меню
-const burgerBtn = document.querySelector('.burger-btn');
 
-// Добавляем обработчик события клика на кнопку бургер-меню
-burgerBtn.addEventListener('click', function() {
-    // Добавляем/удаляем класс "open" на кнопку бургер-меню
-    this.classList.toggle('open');
-    console.log('click btn')
+
+// Добавляем обработчик событий для гамбургер меню
+const hamburger = document.querySelector('.hamburger');
+const menu = document.querySelector('.menu');
+
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    menu.classList.toggle('active');
 });
 
 // Инициализация ScrollMagic
