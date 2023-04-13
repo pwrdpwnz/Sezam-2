@@ -1,4 +1,8 @@
 
+.category-horizontal-with-images {
+    overflow: hidden;
+}
+
 .slider-name {
     line-height: 30px;
     margin-top: 60px;
@@ -173,6 +177,7 @@ body.gridlock section.advantage-cards .row .layout-cell .plugin-layout-inner {
 .menu.active {
     opacity: 1;
     visibility: visible;
+    overflow-x: hidden;
 }
 
 .menu ul {
@@ -201,7 +206,21 @@ body.gridlock section.advantage-cards .row .layout-cell .plugin-layout-inner {
     height: 20px;
 }
 
+.plugin-layout-inner {
+    position: relative;
+    margin-bottom: 30px;
+}
 
+
+.plugin-layout-inner > p > a {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.layout-cell-plugin.layout-cell-plugin a {
+    position: static;
+}
 
 
 @media (min-width: 980px) {
@@ -280,6 +299,13 @@ body.gridlock section.advantage-cards .row .layout-cell .plugin-layout-inner {
 @media (max-width: 979px) {
     .hamburger {
         display: block;
+    }
+
+}
+
+@media (min-width: 979px) {
+    .menu {
+        display: none;
     }
 }
 
