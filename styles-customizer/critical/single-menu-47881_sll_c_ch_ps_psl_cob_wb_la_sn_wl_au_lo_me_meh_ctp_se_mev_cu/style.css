@@ -301,6 +301,10 @@ body.gridlock label {
 }
 
 
+#blocked {
+    cursor: no-drop;
+}
+
 
 @media (min-width: 980px) {
     .burger-btn {
