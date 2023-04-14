@@ -222,6 +222,85 @@ body.gridlock section.advantage-cards .row .layout-cell .plugin-layout-inner {
     position: static;
 }
 
+/* Faq */
+
+.faq {
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+.faq-item {
+    margin-bottom: 5px;
+    border-radius: 20px;
+    border: 1px solid #b91125;
+}
+
+.faq-title {
+    display: block;
+    padding: 15px 20px;
+    position: relative;
+
+    color: #000;
+    cursor: pointer;
+
+    transition: background .2s ease-out;
+}
+
+.faq-title:after {
+    content: "";
+    display: block;
+    border-style: solid;
+    border-width: 8px 5px 0 5px;
+    border-color: #ff0000 transparent transparent transparent;
+
+    position: absolute;
+    top: 50%;
+    right: 15px;
+
+    transform: translateY(-50%);
+}
+
+.faq-title:hover {
+   border: grey;
+}
+
+.faq-input {
+    width: 0;
+    height: 0;
+
+    -webkit-appearance: none;
+    appearance: none;
+
+    position: absolute;
+}
+
+.faq-input:checked ~ .faq-title {
+    border: grey;
+}
+
+.faq-input:checked ~ .faq-title:after {
+    border-style: solid;
+    border-width: 0 5px 8px 5px;
+    border-color: transparent transparent #ff0000 transparent;
+}
+
+.faq-input:checked ~ .faq-text {
+    display: block;
+}
+
+.faq-text {
+    display: none;
+    padding: 10px 15px;
+
+    color: #fff;
+    font-size: 14px;
+}
+
+body.gridlock label {
+    font-size: 1rem!important;
+}
+
+
 
 @media (min-width: 980px) {
     .burger-btn {
@@ -288,6 +367,10 @@ body.gridlock section.advantage-cards .row .layout-cell .plugin-layout-inner {
         height: calc(100% + 100px)!important;
     }
 }
+
+
+
+
 
 @media (max-width: 500px) {
     .mobile-thrive {
